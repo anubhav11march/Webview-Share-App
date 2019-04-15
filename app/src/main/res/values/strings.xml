@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="oprice">Asusssss</string>
+    <!--<string name="asus">https://www.google.com/search?rlz=1C1CHBF_enIN809IN809&ei=QCu0XJiIJMHJvgSw2Zcg&q=buy+asus+zenfone+max+pro+m1&oq=buy+asus+zenfone+max+pro+m1&gs_l=psy-ab.3..0l10.1740.1842..2009...0.0..0.171.326.0j2....2..0....1..gws-wiz.......35i39j0i20i263.oGhOezYnYzU</string>-->
+    <string name="asus">d</string>
+</resources>
