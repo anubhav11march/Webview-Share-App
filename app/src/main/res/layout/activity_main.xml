@@ -8,9 +8,15 @@
     android:id="@+id/relLayout"
     >
 
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Cashkaro Learning"
+        android:onClick="cshko"
+        android:background="@drawable/buttonshape"/>
     <android.support.v7.widget.RecyclerView
         android:id = "@+id/recyclerView"
+        android:layout_marginTop="50dp"
         android:layout_width = "match_parent"
         android:layout_height = "match_parent"
         android:background = "@color/colorAccent"

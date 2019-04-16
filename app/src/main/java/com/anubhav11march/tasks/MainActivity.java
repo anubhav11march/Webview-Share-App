@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initializeData(){
         items = new ArrayList<>();
-        items.add(new item("Asus Zenfone Max Pro M1", R.drawable.img2, "@strings/oprice1", "\u20B9 9,999", "https://www.google.com/search?rlz=1C1CHBF_enIN809IN809&ei=nS20XLzhBM_Tz7sPwKGJkA0&q=buy+asus+zenfone+max+pro+m1&oq=buy+as&gs_l=psy-ab.1.0.35i39j0l9.240618.241367..242347...0.0..0.169.854.0j6....3..0....1..gws-wiz.......0i71j0i131j0i131i67j0i67.HppjhskFHOQ"));
+        items.add(new item("Asus Zenfone Max Pro M1", R.drawable.img2, "@strings/oprice1", "\u20B9 9,999", "https://www.amazon.in/Certified-REFURBISHED-Asus-Zenfone-ZB601KL-4D101IN/dp/B07JNSH5X8/ref=as_sl_pc_qf_sp_asin_til?tag=muar-21&linkCode=w00&linkId=3a8c194102d78acd661a1c940d289f40&creativeASIN=B07JNSH5X8"));
         items.add(new item("Honor 9 lite", R.drawable.img3, "@strings/oprice1", "\u20B9 10,999", "https://www.google.com/search?rlz=1C1CHBF_enIN809IN809&ei=S1O0XLepH_rhz7sPvKuSyAM&q=buy+honor+9+lite&oq=buy+honor+9+lite&gs_l=psy-ab.1.0.0l6j0i22i30l4.1463935.1466965..1468334...1.0..0.298.2200.0j11j2....2..0....1..gws-wiz.......0i71j0i67j0i10j0i20i263j0i131.AtWxmiMyop4"));
         items.add(new item("Nokia 6.1", R.drawable.img4, "@strings/oprice1", "\u20B9 14,999", "https://www.google.com/search?hl=en-IN&authuser=0&rlz=1C1CHBF_enIN809IN809&ei=B1m0XJKACYu40PEPv6agyAI&q=buy+nokia+6.1&oq=buy+nokia+6.1&gs_l=psy-ab.3..0l10.23528.26090..26268...1.0..0.366.1979.0j7j2j1....2..0....1..gws-wiz.......0i71j35i39j0i67j0i20i263j0i13.lVbc0UlOXPk"));
         items.add(new item("Oneplus 5", R.drawable.img5, "@strings/oprice1", "\u20B9 37,999", "https://www.google.com/search?hl=en-IN&authuser=0&rlz=1C1CHBF_enIN809IN809&ei=JFm0XPj5BoWYvQTjm6DoDg&q=buy+oneplus+5&oq=buy+oneplus+5&gs_l=psy-ab.3..0l10.20764.21944..22364...0.0..0.176.1340.0j9....3..0....1..gws-wiz.......0i67.pYYyjl8bUTg"));
@@ -113,6 +113,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    }
+
+    public void cshko(View view){
+        Toast.makeText(this, "Opening ", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, wbvw.class);
+        intent.putExtra("url", "https://learning.clubcashkaro.com/");
+        startActivity(intent);
     }
 
     private void initializeAdapter(){
